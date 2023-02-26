@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML / CSS Exam Page</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="main">
+    <!-- Add your HTML here -->
+    <nav>
+      <h1>Списък от студенти</h1>
+      <ul id="nav-buttons">
+        <li><button>Помощ</button></li>
+        <li><button>Начало</button></li>
+        <li><button>Изход</button></li>
+      </ul>
+      <div id="search">
+        <input type="text" placeholder="Име на студент" id="search-text"/>
+        <input type="button" value="Добави" id="search-btn"/>
+      </div>
+    </nav>
+    <main>
+      <ul id="students-list">
+        <li><span>Иван</span><input placeholder="Оценка" type="number" min="2" max="6"/></li>
+        <li><span>Елена</span><input placeholder="Оценка" type="number" min="2" max="6"/></li>
+        <li id="selected-student"><span>Петър</span><input placeholder="Оценка" type="number" min="2" max="6"/></li>
+        <li><span>Жоро</span><input placeholder="Оценка" type="number" min="2" max="6"/></li>
+        <li><span>Ния</span><input placeholder="Оценка" type="number" min="2" max="6"/></li>
+        <li><span>Цани</span><input placeholder="Оценка" type="number" min="2" max="6"/></li>
+        <li><span>Мартин</span><input placeholder="Оценка" type="number" min="2" max="6"/></li>
+      </ul>
+    </main>
+  </div>
+</body>
+
+</html>

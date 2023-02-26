@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Layouting</title>
+
+	<link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<nav id="main-nav">
+				<ul>
+					<li>
+						<a href="#" data-url="./pages/VerticalLayout.html">Vertical Layout</a>
+					</li>
+
+					<li>
+						<a href="#" data-url="./pages/HorizontalLayout.html">Horizontal Layout</a>
+					</li>
+
+					<li>
+						<a href="#" data-url="./pages/3ColumnLayout.html">3 Column Layout</a>
+					</li>
+
+					<li>
+						<a href="#" data-url="./pages/FullPageLayout.html">Full page layout</a>
+					</li>
+				</ul>
+			</nav id="main-nav">
+		</header>
+
+		<main>
+			<!-- Content here -->
+
+			<iFrame id="frame" src="./pages/VerticalLayout.html"></iFrame>
+		</main>
+	</div>
+
+	<script>
+		Array.from(document.querySelectorAll("#main-nav ul li")).forEach(el => {
+			el.addEventListener("click", event => {
+				document.getElementById("frame").src = event.target.getAttribute("data-url");
+			});
+		})
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<board-game-store>
+    <game>
+        <code>1</code>
+        <title>Катан</title>
+        <publisher isin="DE000LB13MW2">
+            <name>Kosmos</name>
+            <country>Германия</country>
+        </publisher>
+        <still-playing present="Yes"/>
+    </game>
+</board-game-store>

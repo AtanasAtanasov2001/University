@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="HW5Problem2Lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/HW5Problem2Lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

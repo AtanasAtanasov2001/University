@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!DOCTYPE book_catalog SYSTEM "book_catalog.dtd">
+<book_catalog>
+    <book>
+        <id code="A2"></id>
+        <book_header>
+            <book_name>1984</book_name>
+            <price>24.00</price>
+            <cover_path path="..\images\covers\1984.jpg"/>
+        </book_header>
+        <book_details>
+            <summary>Уинстън Смит работи в Министерството на истината в Лондон, град от държавата Океания. Неговото
+                служебно задължение е да пренаписва новини от стари вестници, за да станат в съответствие с
+                представяните от установената власт исторически факти, защото: „Който владее миналото, той владее и
+                бъдещето. Който владее настоящето, владее миналото”
+            </summary>
+            <publish_date>
+                <date day="8" month="6" year="1949"/>
+            </publish_date>
+            <pages>316</pages>
+            <cover_type type="hard"/>
+            <rating>5.50</rating>
+            <genres>
+                <genre name="novel"/>
+            </genres>
+            <publisher>Фама+</publisher>
+            <language name="bulgarian"/>
+            <authors>
+                <author>
+                    <author_name>Джордж Оруел</author_name>
+                    <biography>Ерик Артър Блеър (на английски: Eric Arthur Blair; известен под псевдонима Джордж Оруел,
+                        на английски: George Orwell) е британски писател, журналист и поет. Той е сред най-уважаваните
+                        английски есеисти на ХХ век, талантлив и опитен романист. Творбите му са пропити с
+                        интелигентност, дълбока загриженост за социалната несправедливост, силна опозиция на
+                        тоталитаризма, страст към чистота на езика и вяра в демократичния социализъм. Най-популярен е с
+                        двата си романа, написани към края на краткия му живот: „Фермата на животните“ и „1984“.
+                    </biography>
+                    <published_books>28</published_books>
+                    <nationality>британец</nationality>
+                    <birth_day>
+                        <date day="25" month="6" year="1903"/>
+                    </birth_day>
+                    <death_day>
+                        <date day="21" month="1" year="1950"/>
+                    </death_day>
+                </author>
+            </authors>
+        </book_details>
+    </book>
+</book_catalog>

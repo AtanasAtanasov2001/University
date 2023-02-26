@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<board-game-store>
+    <game>
+        <code>1</code>
+        <title>Катан</title>
+        <game-rating>7.1</game-rating>
+        <game-skill>Стратегия</game-skill>
+    </game>
+</board-game-store>

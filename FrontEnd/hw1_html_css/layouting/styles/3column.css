@@ -1,0 +1,40 @@
+#top{
+    background-color: navy;
+    height: 50px;
+}
+
+#mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 450px;
+    margin-top: 20px;
+}
+
+#left{
+    background-color: purple;
+    height: 450px;
+    width: 20%;
+    margin-right: 30px;
+}
+
+#center{
+    background-color: rgb(6, 163, 6) ;
+    height: 450px;
+    width: 60%;
+    margin-right: 30px;
+
+}
+
+#right{
+    background-color: red;
+    height: 450px;
+    width: 20%
+}
+
+#bot{
+    margin-top: 20px;
+    background-color: blue;
+    height: 50px;
+}

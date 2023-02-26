@@ -1,0 +1,123 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  border: 1px solid red;
+  box-sizing: border-box;
+  height: 768px;
+  width: 1336px;
+  margin: auto;
+  margin-top: 24px;
+}
+
+/* Add your CSS here */
+nav {
+  background: linear-gradient(green, white);
+  padding-top: 30;
+  padding-bottom: 30;
+  padding-left: 40;
+  padding-right: 40;
+}
+
+#students-list li{
+  background: skyblue;
+
+  padding-top: 20;
+  padding-bottom: 20;
+  padding-left: 40;
+  padding-right: 8;
+}
+
+#students-list li:nth-child(odd){
+  background: pink;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav-buttons, #nav-buttons li, h1 {
+  display: inline-block;
+}
+
+#nav-buttons button {
+  color: white;
+  font-size: 16;
+  padding-top: 8;
+  padding-bottom: 8;
+  padding-left: 16;
+  padding-right: 16;
+}
+
+#search {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  width: 970;
+  height: 27.5;
+}
+
+button {
+  background-color: transparent;
+  border-style: dotted;
+  border-color: blue;
+}
+
+#search-btn {
+  background-color: purple;
+  border-color: white;
+  color: white;
+  border-style: dotted;
+  padding: 10;
+  border: 1.25;
+  width: 285px;
+}
+
+#search-text {
+  width: 960px;
+  border-color: white;
+  padding: 10;
+  border: 1.25;
+}
+
+li input {  
+  width: 80;
+  height: 30;
+  border: none;
+}
+
+#students-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#students-list #selected-student{
+  background: green;
+  color: white;
+}
+
+#students-list #selected-student span{
+  text-decoration: line-through;
+}
+
+#search-btn:hover {
+  background-color: peru;
+}
+
+#students-list li:hover {
+  background-color: white;
+  color: black;
+}
+
+#students-list #selected-student:hover{
+  background-color: white;
+  color: black;
+}

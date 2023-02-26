@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="606.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.week4.ConverterController">
+   <children>
+      <GridPane layoutX="18.0" layoutY="22.0" prefHeight="242.0" prefWidth="572.0" style="-fx-border-color: black; -fx-background-color: white;">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="294.4000244140625" minWidth="10.0" prefWidth="196.5999755859375" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="413.5999877929687" minWidth="10.0" prefWidth="403.0000244140625" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <MenuBar GridPane.columnSpan="2147483647">
+              <menus>
+                <Menu fx:id="mnu" mnemonicParsing="false" text="Convert">
+                  <items>
+                    <MenuItem fx:id="mniDecimal" mnemonicParsing="false" onAction="#mniDecimalOnAction" text="Decimal" />
+                        <MenuItem fx:id="mniHex" mnemonicParsing="false" onAction="#mniHexOnAction" text="Hex" />
+                        <MenuItem fx:id="mniBinary" mnemonicParsing="false" onAction="#mniBinaryOnAction" text="Binary" />
+                  </items>
+                </Menu>
+                <Menu fx:id="mnuQuit" mnemonicParsing="false" text="Quit">
+                  <items>
+                    <MenuItem fx:id="mniQuit" mnemonicParsing="false" onAction="#mniQuitOnAction" text="Quit" />
+                  </items>
+                </Menu>
+              </menus>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </MenuBar>
+            <Button fx:id="btnDecimal" mnemonicParsing="false" onAction="#btnDecimalOnAction" prefHeight="26.0" prefWidth="216.0" text="Decimal" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnHex" mnemonicParsing="false" onAction="#btnHexOnAction" prefHeight="26.0" prefWidth="201.0" text="Hex" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnBinary" mnemonicParsing="false" onAction="#btnBinaryOnAction" prefHeight="26.0" prefWidth="210.0" text="Binary" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <TextField fx:id="txtHex" alignment="CENTER_RIGHT" onAction="#txtHexlOnAction" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtBinary" alignment="CENTER_RIGHT" onAction="#txtBinaryOnAction" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtDecimal" alignment="CENTER_RIGHT" onAction="#txtDecimalOnAction" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </TextField>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

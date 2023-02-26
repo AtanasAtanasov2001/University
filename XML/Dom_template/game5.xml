@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE game_library SYSTEM "./Xml_scheme/Schema.dtd">
+<game_library>
+    <game>
+        <id code='G5'></id>
+
+        <game_header>
+            <game_name>God of War Ragnarök</game_name>
+            <price>79.99€</price>
+            <manufacturer>
+                <name>Santa Monica Studio</name>
+                <location>Los Angeles, USA</location>
+                <salary>5000000.00</salary>
+            </manufacturer>
+        </game_header>
+
+        <game_details>
+            <summary>Action-adventure</summary>
+            <publish_date>
+                <date year="2022"/>
+            </publish_date>
+            <age_restriction>
+                18+
+            </age_restriction>
+            <operational_system type="Linux"/>
+            <rating>
+                9.9
+            </rating>
+            <genres>
+                <genre name="Action-adventure"/>
+            </genres>
+            <language name="English"/>
+
+            <publisher>Sony Interactive Entertainment</publisher>
+            <authors>
+                <author>
+                    <author_name>Cory Barlog</author_name>
+                    <biography>yes</biography>
+                    <published_games>Requiem: Avenging Angel, God Of War, God Of War || , God of War Ragnarök
+                    </published_games>
+                    <nationality>American</nationality>
+                    <birth_day>
+                        <date day="2" month="9" year="1975"/>
+                    </birth_day>
+                    <death_day>
+                        <date day="0" month="0" year="0"/>
+                    </death_day>
+                </author>
+            </authors>
+        </game_details>
+    </game>
+</game_library>      

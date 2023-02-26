@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!DOCTYPE book_catalog SYSTEM "book_catalog.dtd">
+<book_catalog>
+    <book>
+        <id code="A3"></id>
+        <book_header>
+            <book_name>Хари Потър и Философският камък</book_name>
+            <price>19.90</price>
+            <cover_path path="..\images\covers\hari-potar-i-filosofskiyat-kamak-31.jpg"/>
+        </book_header>
+        <book_details>
+            <summary>Представете си, че до 10-та си години сте живели под стълбите при семейство, което ви мрази. И на
+                11-я си рожден ден откривате, че сте истински магьосник! Запознайте се Хари Потър... Едно удивително
+                приключение е на път да започне.
+            </summary>
+            <publish_date>
+                <date year="2016"/>
+            </publish_date>
+            <pages>280</pages>
+            <cover_type type="hard"/>
+            <rating>5.80</rating>
+            <genres>
+                <genre name="fantasy"/>
+            </genres>
+            <publisher>Егмонт</publisher>
+            <language name="bulgarian"/>
+            <authors>
+                <author>
+                    <author_name>Дж. К. Роулинг</author_name>
+                    <biography>ДЖ. К. РОУЛИНГ е автор на поставилата множество рекорди и спечелила голям брой награди
+                        поредица за Хари Потър. Обичани от феновете по света, книгите ѝ са продадени в над 500 милиона
+                        екземпляра, преведени са на 80 езика и са превърнати в 8 хитови филма. Пише и три допълнителни
+                        издания в помощ на благотворителни кампании – „Куидичът през вековете“, „Фантастични животни и
+                        къде да ги намерим“ (в помощ на Comic Relief и Lumos) и „Приказките на барда Бийдъл“ (в помощ на
+                        Lumos),
+                        както и филмов сценарий, вдъхновен от „Фантастични животни и къде да ги намерим“. Работи и по
+                        пиесата Harry Potter and the Cursed Child Parts One and Two с премиера през лятото на 2016 г. в
+                        Уест Енд ъф Лондон. През 2012 г. Дж. К. Роулинг стартира Pottermore – дигитална платформа с нови
+                        истории за любимите герои на феновете. Дж. К. Роулинг е автор и на роман за възрастни, „Вакантен
+                        пост“, като пише и криминални романи под псевдонима Робърт Галбрейт. Носител е на Ордена на
+                        британската империя за заслуги в детската литература, на френския Орден на почтения легион и на
+                        наградата „Ханс Кристиан Андерсен“.
+                    </biography>
+                    <published_books>22</published_books>
+                    <nationality>британка</nationality>
+                    <birth_day>
+                        <date day="31" month="6" year="1965"/>
+                    </birth_day>
+                </author>
+            </authors>
+        </book_details>
+    </book>
+</book_catalog>

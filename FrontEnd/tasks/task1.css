@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dbdbdb;
+}
+
+.wrapper {
+    width: 600px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+header {
+    margin: 0px;
+    padding: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    margin-top: 0;
+    margin-bottom: 8px;
+
+}
+
+#input-wrapper{
+    border: 3px solid rgb(45, 12, 126);
+    border-radius: 8px;
+    display: flex;
+    padding: none;
+    align-self: stretch;
+    box-sizing: border-box;
+}
+#input-wrapper input{
+    border: none;
+    flex: 1;
+    border-radius: 8px;
+    padding: 8px 8px;
+    box-sizing: border-box;
+}
+#input-wrapper span{
+    border-left: 3px solid  rgb(45, 12, 126);
+    width: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+main {
+    margin: 0;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#todo-list {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 100%;
+    padding: 0%;
+}
+
+#todo-list li{
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 4px;
+}
+#tofo-list li:not(:last-child){
+    border-bottom: 1px solid black;
+}
+ul {
+    margin-top: 18px;
+    margin-bottom: 8px;
+    padding: 0;
+    width: 100%;
+}
+
+.li-btn {
+    width: 100%;
+    border: 2px solid rgb(45, 12, 126);
+    border-radius:  8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.li-btn:first-child{
+    margin-right: 8px;
+}
+.buttons .li-btn[type = "checkbox"]:checked {
+    background: blue;
+}
+.buttons .li-btn[type = "checkbox"]:not(checked):hover {
+    background: skyblue;
+}
+.buttons {
+    display: flex;
+}
+.left-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left-info input[type = "checkbox"]{
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border: 1px solid blue;
+    border-radius: 4px;
+}
+.left-info input[type = "checkbox"]:checked {
+    background: blue;
+}
+.left-info input[type = "checkbox"]:not(checked):hover {
+    background: skyblue;
+}
+.left-info input[type = "checkbox"]:checked + span {
+    text-decoration:  line-through;
+}

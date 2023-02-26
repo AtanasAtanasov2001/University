@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE game_library SYSTEM "./Xml_scheme/Schema.dtd">
+<game_library>
+    <game>
+        <id code='G4'></id>
+
+        <game_header>
+            <game_name>F1 22</game_name>
+            <price>59.99€</price>
+            <manufacturer>
+                <name>Codemasters</name>
+                <location>Southam, England</location>
+                <salary>2000000.00</salary>
+            </manufacturer>
+        </game_header>
+
+        <game_details>
+            <summary>Sport</summary>
+            <publish_date>
+                <date year="2022"/>
+            </publish_date>
+            <age_restriction>
+                3+
+            </age_restriction>
+            <operational_system type="Windows"/>
+            <rating>
+                7.7
+            </rating>
+            <genres>
+                <genre name="Racing"/>
+            </genres>
+            <language name="German"/>
+
+            <publisher>EA Sports</publisher>
+            <authors>
+                <author>
+                    <author_name>Ian Livingstone</author_name>
+                    <biography>none</biography>
+                    <published_games>F1 22</published_games>
+                    <nationality>English</nationality>
+                    <birth_day>
+                        <date day="15" month="4" year="1989"/>
+                    </birth_day>
+                    <death_day>
+                        <date day="0" month="0" year="0"/>
+                    </death_day>
+                </author>
+            </authors>
+        </game_details>
+    </game>
+</game_library>      

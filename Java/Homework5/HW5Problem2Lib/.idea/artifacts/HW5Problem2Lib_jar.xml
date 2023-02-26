@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HW5Problem2Lib:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HW5Problem2Lib_jar</output-path>
+    <root id="archive" name="HW5Problem2Lib.jar">
+      <element id="module-output" name="HW5Problem2Lib" />
+    </root>
+  </artifact>
+</component>

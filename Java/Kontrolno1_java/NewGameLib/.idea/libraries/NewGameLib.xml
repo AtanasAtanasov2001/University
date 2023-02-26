@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="NewGameLib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/NewGameLib_jar/NewGameLib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

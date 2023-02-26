@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	position: relative;
+	width: 960px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 1200px;
+	margin: auto;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	margin: 0%;
+	padding: none;
+	background-color: #F0E58B;
+	
+}
+header h1{
+	font-size: 40px;
+	font-weight: 900;
+	
+}
+#menu li {
+	display: inline;
+	margin: 0 5px;
+}
+#menu li button{
+	background-color: #F0E58B;
+	border: 2px solid #FaB92B;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 500;
+	
+}
+
+#logo{
+	height: 60px; 
+}
+
+#buttons{
+	accent-color: rgb(156, 73, 13);
+	display: flex;
+	justify-content: center;
+	margin: 20px auto;
+	margin-top: 0;
+	width: 100%;
+	border: 0px;
+}
+#buttons input{
+	margin: 0 30px;
+}
+
+#logo_main {
+	margin: 0 auto;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+}
+.body_content{
+	text-align: center;
+}
+.body_content p{
+	margin: 50px auto;
+	padding: 0 25%;
+	margin-bottom: 250px;
+}
+main{
+	background-color:  #9ACD31;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+#almost_rectangle{
+	background-color: #8B4512;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 25%;
+	padding: 30px 90px;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+#almost_rectangle #input_name{
+	margin-bottom:20px ;
+	border-radius: 5px;
+	font-size: 25px;
+}
+#almost_rectangle #textarea_content{
+	margin-bottom:40px ;
+	border-radius: 5px;
+
+}
+#almost_rectangle #input_submit{
+	background-color: #F0E58B;
+	font-size: 15px;
+	padding: 5px;
+	border-radius: 5px;
+}
+#almost_rectangle label{
+	color: #F0E58B;
+	border-radius: 5px;
+}
+footer{
+	margin-top: 2px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #546A2F;
+	color: white;
+
+}
+#footer_menu li {
+	display: inline;
+	margin: 0 5px;
+}
+

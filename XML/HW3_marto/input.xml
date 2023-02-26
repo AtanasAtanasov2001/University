@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<board-game-store>
+    <game>
+        <id>1</id>
+        <title>Катан</title>
+        <other-title>Заселниците на Катан</other-title>
+        <skill>Стратегия</skill>
+        <difficulty level="Medium"/>
+        <designer>
+            <name>Клаус Тойбер</name>
+            <nationality>Германия</nationality>
+        </designer>
+        <publisher isin="DE000LB13MW2">
+            <name>Kosmos</name>
+            <headquarters>
+                <city>Щутгарт</city>
+                <country>Германия</country>
+                <type>Дъщерна компания</type>
+            </headquarters>
+            <company-info>
+                <employees-count>205</employees-count>
+                <website>https://www.kosmos.de</website>
+                <boss>Йохан Фридрих Франк</boss>
+            </company-info>
+        </publisher>
+        <players>
+            <min>3</min>
+            <max>4</max>
+        </players>
+        <date>
+            <day value="day">03</day>
+            <month value="month">12</month>
+            <year value="year">1995</year>
+        </date>
+        <rating>7.1</rating>
+        <still-playing present="Yes"/>
+    </game>
+</board-game-store>

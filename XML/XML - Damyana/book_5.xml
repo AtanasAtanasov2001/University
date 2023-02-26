@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!DOCTYPE book_catalog SYSTEM "book_catalog.dtd">
+<book_catalog>
+    <book>
+        <id code="A5"></id>
+        <book_header>
+            <book_name>Кратка история на времето</book_name>
+            <price>19.99</price>
+            <cover_path path="..\images\covers\kratka-istoria-na-vremeto.jpg"/>
+        </book_header>
+        <book_details>
+            <summary>Имало ли е времето начало? Може ли времето да тече назад? Безкрайна ли е Вселената, или е
+                ограничена? Това са само някои от въпросите, разглеждани в този всепризнат шедьовър, който започва с
+                преглед на големите теории за устройството на космоса от Нютон до Айнщайн, преди да навлезе в същността
+                на тайните, които продължават да се крият в сърцето на пространство-времето.
+            </summary>
+            <publish_date>
+                <date year="2005"/>
+            </publish_date>
+            <pages>288</pages>
+            <cover_type type="soft"/>
+            <genres>
+                <genre name="popular-science"/>
+            </genres>
+            <publisher>Бард</publisher>
+            <language name="bulgarian"/>
+            <authors>
+                <author>
+                    <author_name>Стивън Хокинг</author_name>
+                    <biography>Професор Стивън Уилям Хокинг, CH CBE FRS (на английски: Stephen William Hawking) е
+                        английски астрофизик, автор на книги и статии за новите открития и идеи за Вселената и нейното
+                        зараждане, включително и на популярната „Кратка история на времето“ (A Brief History of Time,
+                        1988), която му спечелва международна известност.
+                        До 2009 г. е Лукасов професор по математика на Кеймбриджкия университет (пост, заеман някога от
+                        Исак Нютон[4]). Занимава се основно с космология и квантова механика, известен е и като
+                        популяризатор на науката. Въпреки тежкото си заболяване – амиотрофична латерална склероза (АЛС)
+                        – Хокинг не престава да се труди в областта на науката, показвайки, че физическото увреждане не
+                        прави никого по-малко способен да твори.
+                    </biography>
+                    <published_books>9</published_books>
+                    <nationality>британец</nationality>
+                    <birth_day>
+                        <date day="8" month="1" year="1942"/>
+                    </birth_day>
+                    <death_day>
+                        <date day="14" month="3" year="2018"/>
+                    </death_day>
+                </author>
+            </authors>
+        </book_details>
+    </book>
+</book_catalog>

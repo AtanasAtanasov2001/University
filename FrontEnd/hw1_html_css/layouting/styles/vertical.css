@@ -1,0 +1,31 @@
+#top{
+    background-color: rgb(17, 107, 31);
+    height: 100px;
+}
+#mid{
+    background-color: rgb(15, 190, 15);
+    height: 400px;
+    margin-top: 20px;
+}
+#bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 60px;
+    margin-top: 20px;
+
+}
+#left{
+    background-color: purple;
+    height: 50px;
+    width: 50%;
+    margin-right: 30px;
+
+}
+#right{
+    background-color: blue;
+    height: 50px;
+    width: 50%
+
+}

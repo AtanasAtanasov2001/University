@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE game_library SYSTEM "./Xml_scheme/Schema.dtd">
+<game_library>
+    <game>
+        <id code='G2'></id>
+
+        <game_header>
+            <game_name>Hearthstone</game_name>
+            <price>0.00</price>
+            <manufacturer>
+                <name>Blizzard entertainment</name>
+                <location>USA</location>
+                <salary>400000.00</salary>
+            </manufacturer>
+        </game_header>
+
+        <game_details>
+            <summary>Card game</summary>
+            <publish_date>
+                <date year="2014"/>
+            </publish_date>
+            <age_restriction>
+                7+
+            </age_restriction>
+            <operational_system type="Windows"/>
+            <rating>
+                5.5
+            </rating>
+            <genres>
+                <genre name="Strategy"/>
+            </genres>
+            <language name="English"/>
+
+            <publisher>Blizzard Entertainment</publisher>
+            <authors>
+                <author>
+                    <author_name>Dean Ayala</author_name>
+                    <biography>none</biography>
+                    <published_games>Hearthstone, StarCraft || , Diablo |||</published_games>
+                    <nationality>American</nationality>
+                    <birth_day>
+                        <date day="15" month="10" year="1980"/>
+                    </birth_day>
+                    <death_day>
+                        <date day="0" month="0" year="0"/>
+                    </death_day>
+                </author>
+            </authors>
+        </game_details>
+    </game>
+</game_library>    
+  

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE game_library SYSTEM "./Xml_scheme/Schema.dtd">
+<game_library>
+    <game>
+        <id code='G3'></id>
+
+        <game_header>
+            <game_name>Monster Hunter: World</game_name>
+            <price>69.99€</price>
+            <manufacturer>
+                <name>Capcom</name>
+                <location>Osaka, Japan</location>
+                <salary>10000000.00</salary>
+            </manufacturer>
+        </game_header>
+
+        <game_details>
+            <summary>Action</summary>
+            <publish_date>
+                <date year="2018"/>
+            </publish_date>
+            <age_restriction>
+                12+
+            </age_restriction>
+            <operational_system type="Mac"/>
+            <rating>
+                9.5
+            </rating>
+            <genres>
+                <genre name="Action"/>
+            </genres>
+            <language name="Japanese"/>
+
+            <publisher>Capcom</publisher>
+            <authors>
+                <author>
+                    <author_name>Yuya Tokuda</author_name>
+                    <biography>none</biography>
+                    <published_games>Monster Hunter: World, Monster Hunter 4, Monster Hunter World: Iceborne
+                    </published_games>
+                    <nationality>Japanese</nationality>
+                    <birth_day>
+                        <date day="25" month="7" year="1975"/>
+                    </birth_day>
+                    <death_day>
+                        <date day="0" month="0" year="0"/>
+                    </death_day>
+                </author>
+            </authors>
+        </game_details>
+    </game>
+</game_library>    
+ 

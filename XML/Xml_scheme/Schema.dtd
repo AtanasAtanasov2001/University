@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!ELEMENT game_library (game*)>
+        <!ELEMENT game (id, game_header, game_details)>
+
+        <!ELEMENT id (#PCDATA)>
+        <!ATTLIST id code ID #REQUIRED>
+
+        <!--GAME HEADER -->
+        <!ELEMENT game_header (game_name, price, manufacturer)>
+        <!ELEMENT game_name (#PCDATA)>
+        <!ELEMENT price (#PCDATA)>
+        <!ELEMENT manufacturer (name,location, salary)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT location (#PCDATA)>
+        <!ELEMENT salary (#PCDATA)>
+
+        <!--GAME DETAILS -->
+        <!ELEMENT game_details (summary, publish_date?,age_restriction, operational_system , rating?,
+                genres, language, publisher, authors)>
+        <!ELEMENT summary (#PCDATA)>
+        <!ELEMENT publish_date (date)>
+        <!ELEMENT age_restriction (#PCDATA)>
+        <!ELEMENT operational_system EMPTY>
+        <!ATTLIST operational_system type (Windows | Mac | Linux) #REQUIRED>
+        <!ELEMENT rating (#PCDATA)>
+        <!ELEMENT genres (genre+)>
+        <!ELEMENT genre EMPTY>
+        <!ATTLIST genre name
+                (Action | Adventure | Action-adventure | Role-playing | Strategy | Simulation | Puzzle | Sport | Racing | Idle) #REQUIRED>
+        <!ELEMENT langueges (languege+)>
+        <!ELEMENT language EMPTY>
+        <!ATTLIST language name (Bulgarian | English | Spanish | Russian | German | Greek | Turkish | Chineese | Japanese |
+                French | Portugese | Polish) #REQUIRED>
+        <!ELEMENT publisher (#PCDATA)>
+
+        <!--AUTHORS INFO -->
+        <!ELEMENT authors (author*)>
+        <!ELEMENT author (author_name, biography?, published_games?, nationality?,
+                birth_day?, death_day?)>
+        <!ELEMENT author_name (#PCDATA)>
+        <!ELEMENT biography (#PCDATA)>
+        <!ELEMENT published_games (#PCDATA)>
+        <!ELEMENT nationality (#PCDATA)>
+        <!ELEMENT birth_day (date)>
+        <!ELEMENT death_day (date)>
+        <!ELEMENT date EMPTY>
+        <!ATTLIST date day CDATA #IMPLIED>
+        <!ATTLIST date month CDATA #IMPLIED>
+        <!ATTLIST date year CDATA #IMPLIED>

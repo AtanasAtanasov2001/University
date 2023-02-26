@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <section class="wrapper">
+    <header class="header flex column">
+      <nav class="action-menu flex ">
+        <li class="menu-item flex h-center v-center close">&times;</li>
+        <li class="menu-item flex h-center v-center min">&minus;</li>
+        <li class="menu-item flex h-center v-center max">&plus;</li>
+      </nav>
+      <input class="input" value="0" />
+    </header>
+
+    <main class="calculator">
+      <div class="action-grid">
+        <button class="action action-btn">C</button>
+        <button class="action action-btn">&#8730;</button>
+        <button class="action action-btn">n<sup>2</sup></button>
+        <button class="action orange">&divide;</button>
+        <button class="action">7</button>
+        <button class="action">8</button>
+        <button class="action">9</button>
+        <button class="action orange">&times;</button>
+        <button class="action">4</button>
+        <button class="action">5</button>
+        <button class="action">6</button>
+        <button class="action orange">&minus;</button>
+        <button class="action">1</button>
+        <button class="action">2</button>
+        <button class="action">3</button>
+        <button class="action orange">&plus;</button>
+        <button class="action zero">0</button>
+        <button class="action">.</button>
+        <button class="action orange">=</button>
+      </div>
+      <p hidden class='operation'></p>
+      <p hidden class='operation-number'></p>
+      <p hidden class='operation-active'>0</p>
+    </main>
+  </section>
+
+  <section class="history-wrapper">
+    <header class="flex column h-center v-center">
+      <h1>История на калкулациите</h1>
+      <button class="clear">Изчистване</button>
+    </header>
+
+    <main>
+      <ul class="calculation-list">
+        <!-- <li>1 + 2 + 1 + 5 = 9</li>
+        <li>1 x 2 = 2</li>
+        <li>2<sup>2</sup> = 4</li>
+        <li>&#8730;4  = 2</li>
+        <li>2 &divide; 2 = 1</li> -->
+      </ul>
+    </main>
+  </section>
+</body>
+</html>

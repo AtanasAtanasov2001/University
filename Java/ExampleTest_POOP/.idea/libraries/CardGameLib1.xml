@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CardGameLib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CardGameLib/out/artifacts/CardGameLib_jar/CardGameLib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

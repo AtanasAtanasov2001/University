@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 30/10/2022</title>
+</head>
+
+<body>
+    <h1>Exercise 30/10/2022</h1>
+    <h2>Add employee</h2>
+    <form>
+        <fieldset>
+            <legend>Employee information</legend>
+            <div>
+                <fieldset>
+                    <legend>Personal information</legend>
+
+                    <div>
+                        <label for="first_name">First name *:</label>
+                        <br />
+                        <input id="first_name" name="first_name" placeholder="First name" required />
+                    </div>
+                    <div>
+                        <label for="last_name">Last name *:</label>
+                        <br />
+                        <input id="last_name" name="last_name" placeholder="Last name" required />
+                    </div>
+                    <div>
+                        <label for="birth_date">Birth date *:</label>
+                        <br />
+                        <input id="birth_date" name="birth_date" type="date" placeholder="Birth date" required />
+                    </div>
+                    <div>
+                        <label for="courtesy">Title of Courtesy *:</label>
+                        <br />
+                        <input id="courtesy" name="courtesy" type="radio" value="Dr." required />
+                        <labe>Dr.</labe>
+                        <input name="courtesy" type="radio" value="Mr." />
+                        <labe>Mr.</labe>
+                        <input name="courtesy" type="radio" value="Mrs." />
+                        <labe>Mrs.</labe>
+                        <input name="courtesy" type="radio" value="Ms." />
+                        <label>Ms.</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Contant information</legend>
+
+                    <div>
+                        <label for="address">Address *:</label>
+                        <br />
+                        <input id="address" name="address" placeholder="Address" required />
+                    </div>
+                    <div>
+                        <label for="city">City *:</label>
+                        <br />
+                        <input id="city" name="city" placeholder="City" required />
+                    </div>
+                    <div>
+                        <label for="region">Region *:</label>
+                        <br />
+                        <input id="region" name="region" placeholder="Region" required />
+                    </div>
+                    <div>
+                        <label for="postal_code">Postal code:</label>
+                        <br />
+                        <input id="postal_code" name="postal_code" type="number" min="1000" max="9999"
+                            placeholder="1000" required />
+                    </div>
+                    <div>
+                        <label for="country">Country *:</label>
+                        <br />
+                        <input id="country" name="country" placeholder="Country" required />
+                    </div>
+                    <div>
+                        <label for="mobile_phone">Mobile phone *:</label>
+                        <br />
+                        <input id="mobile_phone" name="mobile_phone" type="tel" pattern="\+3598[0-9]{8}"
+                            placeholder="+359888123456" required />
+                    </div>
+                    <div>
+                        <label for="email">Email *:</label>
+                        <br />
+                        <input id="email" name="email" type="email" placeholder="example@example.com" required />
+                    </div>
+                </fieldset>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Job information</legend>
+
+            <div>
+                <label for="job_title">Job title *:</label>
+                <br />
+                <input id="job_title" name="job_title" placeholder="Job title" required />
+            </div>
+            <div>
+                <label for="manager">Manager *:</label>
+                <br />
+                <select id="manager" name="manager" required>
+                    <option value="">
+                        -- Please select manager --
+                    </option>
+                    <option value="John Doe">
+                        John Doe
+                    </option>
+                </select>
+            </div>
+            <div>
+                <label for="password">Password *:</label>
+                <br />
+                <input id="password" name="password" type="password" placeholder="Password" required />
+            </div>
+            <div>
+                <label for="rep_password">Repeat Password *:</label>
+                <br />
+                <input id="rep_password" name="rep_password" type="password" placeholder="Repeat password" required />
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Additional information</legend>
+            <div>
+                <label for="notes">Notes:</label>
+                <br />
+                <textarea id="notes" name="notes" placeholder="Some additional notes..."></textarea>
+            </div>
+        </fieldset>
+
+        <input name="confirm" id="confirm" type="checkbox" required />
+        <label for="confirm">* Yes, I confirm.</label>
+        <br />
+        <button>Add employee</button>
+    </form>
+    <h2>Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+                <th>Column 4</th>
+                <th>Column 5</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="3">Some text</td>
+                <td>A</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td rowspan="3">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+                <td align="right">G</td>
+            </tr>
+            <tr>
+                <td>H</td>
+                <td colspan="2">I</td>
+                <td rowspan="2" align="right" valign="bottom">J</td>
+            </tr>
+            <tr>
+                <td>K</td>
+                <td>L</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td colspan="4">O</td>
+            </tr>
+        <tfoot>
+            <tr>
+                <td colspan="5" align="right">I'm footer</td>
+            </tr>
+        </tfoot>
+        </tbody>
+    </table>
+</body>
+
+</html>
