@@ -1,0 +1,4 @@
+Unique Code: A 0 Name: Georgi Georgiev ID: 1122334455  Deposited sum: 28879 Withdrawn sum: 6161
+Unique Code: B 1 Name: Dimitar Dimitrov ID: 1122331122  Deposited sum: 4734 Withdrawn sum: 4734
+Unique Code: C 2 Name: Georgi Georgiev ID: 1122334455  Deposited sum: 12187 Withdrawn sum: 835
+Unique Code: D 3 Name: Dimitar Dimitrov ID: 1122331122  Deposited sum: 28000 Withdrawn sum: 0

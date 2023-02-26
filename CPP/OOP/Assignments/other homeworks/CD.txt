@@ -1,0 +1,2 @@
+The manufactorer is: Toshiba ,The available memory is: 16 ,The total memory is:16 ,Is the disk rewritable?true ,The price of the disk is: 10.5 ,The type of the disk is: CD-ROM ,
+The manufactorer is: Vodafon ,The available memory is: 8 ,The total memory is:8 ,Is the disk rewritable?false ,The price of the disk is: 5.5 ,The type of the disk is: CD-ROM ,
